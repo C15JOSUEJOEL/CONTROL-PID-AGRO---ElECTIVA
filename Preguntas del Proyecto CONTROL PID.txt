@@ -1,0 +1,72 @@
+Instituto Tecnológico de las Americas (ITLA)
+=====================================================================
+Electiva
+17 de septiembre de 2026
+=====================================================================
+Grupo AGRO 
+Proyecto Control PID
+=====================================================================
+Preguntas al tema planteado por el maestro y respuestas obtenidas
+=====================================================================
+
+Preguntas del Proyecto CONTROL PID
+_____________________________________________________________________
+
+1.¿Con cuál objetivo se realizará este proyecto?
+
+R:Objetivo del profesor es enseñar y aplicar PID de manera digital.
+_____________________________________________________________________
+
+2.¿A que aplicaremos un sistema PID?
+
+R:En una Balanza estabilizadora
+_____________________________________________________________________
+
+3.¿Cuáles son las propiedades del proyecto?
+
+R:Fácil de transportar, adaptativo a otro sistema.
+_____________________________________________________________________
+
+4.¿Como es el comportamiento?
+
+R:Equilibrar sistemas.
+_____________________________________________________________________
+
+5.¿Como es la interfaz?
+
+R:Multifuncional y acoplada a varias interfaces.
+_____________________________________________________________________
+
+6.¿A que publico va dirigido?
+
+R:Va dirigido a estudiantes y profesores.
+_____________________________________________________________________
+
+7.¿Cuáles beneficios aportara el proyecto?
+
+R:Permitirá comprender de manera visual y práctica el funcionamiento de un controlador PID. También facilitará la realización de pruebas, el análisis de la respuesta del sistema y el desarrollo de competencias en programación, electrónica, instrumentación y control automático.
+_____________________________________________________________________
+
+8.¿Cuáles son los criterios?
+
+R:Los principales criterios para evaluar el proyecto serán:
+
+• Capacidad para mantener la pelota en la posición establecida.
+
+• Estabilidad del sistema.
+
+• Tiempo de respuesta y de estabilización.
+
+• Bajo error en estado estacionario.
+
+• Sobre impulso reducido.
+
+• Respuesta ante perturbaciones externas.
+
+• Facilidad para ajustar los parámetros PID.
+
+• Portabilidad, seguridad y facilidad de uso.
+
+• Posibilidad de adaptar el controlador a otros sistemas.
+ _____________________________________________________________________
+ 
