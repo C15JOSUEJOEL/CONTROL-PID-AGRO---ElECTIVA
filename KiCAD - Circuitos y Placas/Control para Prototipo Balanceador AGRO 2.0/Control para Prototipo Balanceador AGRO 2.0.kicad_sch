@@ -4816,7 +4816,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 302.26) (xy 396.24 302.26)
+			(xy 405.13 302.26) (xy 402.59 302.26)
 		)
 		(stroke
 			(width 0)
@@ -5086,7 +5086,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 297.18) (xy 396.24 297.18)
+			(xy 405.13 297.18) (xy 402.59 297.18)
 		)
 		(stroke
 			(width 0)
@@ -6914,7 +6914,7 @@
 	)
 	(global_label "Y+"
 		(shape input)
-		(at 396.24 297.18 180)
+		(at 402.59 297.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6924,7 +6924,7 @@
 		)
 		(uuid "29c6fcc6-5d65-4deb-a9f9-d662d34a6db6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 390.5938 297.18 0)
+			(at 396.9438 297.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7106,7 +7106,7 @@
 	)
 	(global_label "Y-"
 		(shape input)
-		(at 396.24 302.26 180)
+		(at 402.59 302.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7116,7 +7116,7 @@
 		)
 		(uuid "3d0197e1-6744-4a34-95b7-69f17beb67b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 390.5938 302.26 0)
+			(at 396.9438 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11198,130 +11198,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2026-10-29_05-58-03:TSC2046IPW")
-		(at 354.33 318.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "536fb3c6-b691-4100-8514-8b03c3531c0c")
-		(property "Reference" "U1"
-			(at 387.35 308.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TSC2046IPW"
-			(at 387.35 311.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 354.33 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tsc2046"
-			(at 354.33 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 354.33 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "e320c0ab-e219-4704-b78d-b6160e3b8fca")
-		)
-		(pin "6"
-			(uuid "e08104fd-c818-4bbf-9821-195ac9490f0b")
-		)
-		(pin "13"
-			(uuid "8da09bbd-3773-4f5e-99e1-60146d90c2a7")
-		)
-		(pin "15"
-			(uuid "13df40ac-b760-498a-b726-0e27ce50c880")
-		)
-		(pin "10"
-			(uuid "f5d1a639-2b6d-4e88-981f-deac79dd8fb8")
-		)
-		(pin "9"
-			(uuid "3d242f9c-af86-4ee4-9588-f4e3bda003fa")
-		)
-		(pin "3"
-			(uuid "26ea8e33-bde4-4853-ba9f-2c2fe504b8e2")
-		)
-		(pin "16"
-			(uuid "28de1561-8919-4550-8b64-4a920796ae9d")
-		)
-		(pin "5"
-			(uuid "c415d114-793d-4dde-93fa-c8966445826c")
-		)
-		(pin "11"
-			(uuid "4201ecac-69dd-4ac4-8500-665e2f24b98e")
-		)
-		(pin "14"
-			(uuid "12993045-a3b8-4c83-9d41-149514f7fe31")
-		)
-		(pin "4"
-			(uuid "5f36d300-4a2b-4c83-b826-7ef0e6099bbd")
-		)
-		(pin "12"
-			(uuid "68ff9bad-2095-409f-bd21-e6b844015a12")
-		)
-		(pin "7"
-			(uuid "03ac80c6-5bbc-4120-a6d9-00bcb81cd252")
-		)
-		(pin "2"
-			(uuid "f8a3745c-ca34-45fa-a43b-865882bdddf5")
-		)
-		(pin "1"
-			(uuid "eefe2655-d6cb-4a1d-afd2-720acee0b149")
-		)
-		(instances
-			(project "Control para Prototipo Balanceador AGRO 2.0"
-				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 486.41 405.13 180)
 		(unit 1)
@@ -13588,6 +13464,130 @@
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026-10-29_05-58-03:TSC2046IPW")
+		(at 354.33 318.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aec2b250-64f8-4181-a25d-4246531a80a3")
+		(property "Reference" "U1"
+			(at 387.35 308.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TSC2046IPW"
+			(at 387.35 311.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "PW16"
+			(at 354.33 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tsc2046"
+			(at 354.33 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 354.33 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "15"
+			(uuid "c0e53e7a-825c-4980-8417-0aec49197791")
+		)
+		(pin "14"
+			(uuid "278d0bad-329f-4664-a8b9-5b3acb674f23")
+		)
+		(pin "13"
+			(uuid "be56d24b-f491-4c06-97fa-e45646fb12cd")
+		)
+		(pin "16"
+			(uuid "42ceb646-8c82-4b49-b6fb-6b8fa1ff9ddc")
+		)
+		(pin "4"
+			(uuid "73f97a53-d4a4-4b4f-8070-6425b768f2c5")
+		)
+		(pin "2"
+			(uuid "4ff6f0df-18dc-4b11-a364-66da5310a204")
+		)
+		(pin "5"
+			(uuid "3eca1e8d-e112-4a95-9d99-3d3516ec16a5")
+		)
+		(pin "10"
+			(uuid "fc8f5757-673e-4cef-93ec-355d7144546e")
+		)
+		(pin "12"
+			(uuid "71da4e22-4d4c-4b5e-b20c-563ae2d29da1")
+		)
+		(pin "7"
+			(uuid "177479c9-137f-49d3-a6f6-52b2bb7ffc1c")
+		)
+		(pin "6"
+			(uuid "7883f246-1a93-40df-b46c-8a1b2e02f28c")
+		)
+		(pin "9"
+			(uuid "5c781a9d-1509-4d80-ac45-2e7ad18442f9")
+		)
+		(pin "11"
+			(uuid "5750fec1-82ed-4122-b3d1-f68a17cefc6b")
+		)
+		(pin "3"
+			(uuid "42ebac25-9e32-4063-a811-3eb61095287e")
+		)
+		(pin "1"
+			(uuid "689291f6-d0b2-44b4-abc8-623dfeeac051")
+		)
+		(pin "8"
+			(uuid "abd44c10-a518-49dd-808c-94a513ef04e9")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "U1")
 					(unit 1)
 				)
 			)

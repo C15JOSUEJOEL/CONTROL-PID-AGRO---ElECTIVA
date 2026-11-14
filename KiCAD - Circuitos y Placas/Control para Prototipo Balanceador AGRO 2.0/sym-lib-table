@@ -3,4 +3,6 @@
 	(lib (name "74HC4050D") (type "KiCad") (uri "C:/Users/joelc/Desktop/74HC4050D/74HC4050D.kicad_sym") (options "") (descr ""))
 	(lib (name "74HCT2G34") (type "KiCad") (uri "C:/Users/joelc/Desktop/74HCT2G34.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-10-29_05-58-03") (type "KiCad") (uri "D:/ITLA/11vo cuatrimestre/Electiva - Diseño Mecatronico/Recursos/ul_TSC2046IPW/KiCADv6/2026-10-29_05-58-03.kicad_sym") (options "") (descr ""))
+	(lib (name "lcsc_imported") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/symbols/lcsc_imported.kicad_sym") (options "") (descr ""))
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/easyeda2kicad/easyeda2kicad.kicad_sym") (options "") (descr ""))
 )
