@@ -1343,7 +1343,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Plug_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1352,26 +1352,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at -10.16 19.05 0)
+			(property "Reference" "J"
+				(at 0 22.225 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Plug_USB2.0"
-				(at 12.7 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -1396,7 +1394,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Plug connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1418,7 +1416,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1429,7 +1427,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -1486,6 +1484,17 @@
 					)
 				)
 				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 10.16 -2.286)
 					(end 9.144 -2.794)
 					(stroke
@@ -1496,8 +1505,41 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -1698,7 +1740,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -1738,7 +1780,7 @@
 				(pin bidirectional line
 					(at 15.24 10.16 180)
 					(length 5.08)
-					(name "CC"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1782,6 +1824,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1868,7 +1928,7 @@
 				(pin bidirectional line
 					(at 15.24 7.62 180)
 					(length 5.08)
-					(name "VCONN"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1876,6 +1936,60 @@
 						)
 					)
 					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5321,6 +5435,12 @@
 		(color 0 0 0 0)
 		(uuid "e086545a-9acd-45d0-a629-0d18351e88db")
 	)
+	(junction
+		(at 601.98 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e53c5a63-60c7-4e1e-9e10-ce8a1c31cf0c")
+	)
 	(no_connect
 		(at 538.48 260.35)
 		(uuid "08cb9ff2-f8c7-4804-9471-9de0a4638626")
@@ -5757,6 +5877,16 @@
 	)
 	(wire
 		(pts
+			(xy 601.98 238.76) (xy 605.79 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc66759-a4e1-49a7-86df-b3a3e1d5d563")
+	)
+	(wire
+		(pts
 			(xy 538.48 201.93) (xy 538.48 200.66)
 		)
 		(stroke
@@ -5974,6 +6104,16 @@
 			(type default)
 		)
 		(uuid "58c3c391-5534-43b9-aa5d-92d08ce671a9")
+	)
+	(wire
+		(pts
+			(xy 605.79 233.68) (xy 605.79 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7ab3b9-6e7d-4d45-b80d-6a80031dc04c")
 	)
 	(wire
 		(pts
@@ -6467,6 +6607,16 @@
 	)
 	(wire
 		(pts
+			(xy 598.17 238.76) (xy 601.98 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48a5e02-0d51-455c-acb4-e6c1436a83f8")
+	)
+	(wire
+		(pts
 			(xy 383.54 264.16) (xy 391.16 264.16)
 		)
 		(stroke
@@ -6634,6 +6784,16 @@
 			(type default)
 		)
 		(uuid "d37fceee-132e-4d0c-bb19-b21def8a3398")
+	)
+	(wire
+		(pts
+			(xy 601.98 242.57) (xy 601.98 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d412f2f5-34c0-4329-a0c3-3703e590fbf4")
 	)
 	(wire
 		(pts
@@ -6944,6 +7104,16 @@
 			(type default)
 		)
 		(uuid "fd3eba39-24d9-48c6-9dea-f3ece04ae09c")
+	)
+	(wire
+		(pts
+			(xy 598.17 233.68) (xy 598.17 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda017ba-06a3-4dfd-bad9-31f6490f0234")
 	)
 	(wire
 		(pts
@@ -7304,30 +7474,6 @@
 		(uuid "4a09d7ca-a86d-49dd-8b91-2433aeccfa4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 484.1506 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "+5V"
-		(shape input)
-		(at 361.95 252.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f7a2c90-09d4-4d6c-b897-553569763ceb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.0943 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8934,119 +9080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 651.51 242.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2558fb8b-f9f1-4a9a-8bfd-24f74211d6d7")
-		(property "Reference" "P1"
-			(at 651.51 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Plug_USB2.0"
-			(at 651.51 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 655.32 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 655.32 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 651.51 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B12"
-			(uuid "74465b06-e449-4343-809f-57f9b2e756cd")
-		)
-		(pin "A9"
-			(uuid "52db102e-fd8f-4e73-82d9-0251b9d56ae4")
-		)
-		(pin "B5"
-			(uuid "2df2d55b-faec-4727-8b34-933668bd9046")
-		)
-		(pin "A6"
-			(uuid "eb90ac06-c646-4b05-84ac-e009db026461")
-		)
-		(pin "A4"
-			(uuid "69ac74f2-201f-47f3-8dc5-5cdd84567487")
-		)
-		(pin "B1"
-			(uuid "22157ef8-0198-407b-9fce-a2974ea02972")
-		)
-		(pin "A12"
-			(uuid "58d05d85-d68a-4a40-b7d4-36f1106c0626")
-		)
-		(pin "A1"
-			(uuid "f81387df-653f-4924-815f-0745f8544390")
-		)
-		(pin "B9"
-			(uuid "5b1826b6-e513-40ed-b88d-64ffec876bfc")
-		)
-		(pin "SH"
-			(uuid "959460ee-8d10-445c-bc7b-eff1a77d655e")
-		)
-		(pin "A5"
-			(uuid "1feb5b24-b76f-43d3-a47d-901a5ea3d0b8")
-		)
-		(pin "A7"
-			(uuid "b60696f5-72de-4571-9d45-8362e1c2f99d")
-		)
-		(pin "B4"
-			(uuid "9aff2cab-663c-4c51-bab0-20faae7a4388")
-		)
-		(instances
-			(project "Control para Prototipo Balanceador AGRO 2.0"
-				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
 		(at 383.54 252.73 0)
 		(unit 1)
@@ -9124,6 +9157,85 @@
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 361.95 252.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26cd5e8f-d14b-4f45-86f1-d91fed2acc40")
+		(property "Reference" "#PWR029"
+			(at 365.76 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 358.14 252.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 361.95 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08c957b2-ca5f-42d6-bbb7-4033dde90355")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9365,6 +9477,85 @@
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 601.98 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af1e604-555f-4965-9c25-d5095175834c")
+		(property "Reference" "#PWR015"
+			(at 601.98 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 604.52 243.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 601.98 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 601.98 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 601.98 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96c85785-8fb7-4820-b2de-9ac33d4d3671")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10893,6 +11084,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 605.79 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "785bf928-2b83-460b-ac38-2cefd5006a9e")
+		(property "Reference" "J4"
+			(at 605.79 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 605.79 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+			(at 609.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 609.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 605.79 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A5"
+			(uuid "d47e90af-5573-4906-8f25-816fca7e08f6")
+		)
+		(pin "B8"
+			(uuid "25d366f8-8b01-4c20-8ace-2d78ba002bae")
+		)
+		(pin "B1"
+			(uuid "3d467608-2105-4323-a985-110bff3b83f2")
+		)
+		(pin "SH"
+			(uuid "1132cc6c-89db-45c5-a0ee-ac6a941ed14b")
+		)
+		(pin "B6"
+			(uuid "56c833b8-66d2-4f16-83a6-e61939e670b0")
+		)
+		(pin "A12"
+			(uuid "ae852195-dceb-4850-9996-cebd063bf931")
+		)
+		(pin "A4"
+			(uuid "763e0313-e4a4-41fd-8eed-82cdabff5d07")
+		)
+		(pin "A8"
+			(uuid "db2a364b-12ea-474a-a9f2-2a43083ec937")
+		)
+		(pin "B7"
+			(uuid "b8ff8cec-1dfd-4d22-94fa-c739c30da6d2")
+		)
+		(pin "B12"
+			(uuid "a4814887-16c1-4a3c-bca6-8eb7113fc43f")
+		)
+		(pin "A9"
+			(uuid "18af61bc-1be3-433b-8e9e-f4f25618e047")
+		)
+		(pin "B4"
+			(uuid "5865369d-a40b-4ae5-83f1-69cffe53a4e3")
+		)
+		(pin "A6"
+			(uuid "8fe9bca6-a17e-427e-86e8-05138cc84ad6")
+		)
+		(pin "B9"
+			(uuid "915fc59c-b3ea-42ea-802c-97612e68d782")
+		)
+		(pin "B5"
+			(uuid "b11dd464-aabb-4cad-9650-74063b715c02")
+		)
+		(pin "A1"
+			(uuid "076c977d-d804-4aa2-8f0b-5f7912f5b2a8")
+		)
+		(pin "A7"
+			(uuid "71ec39ed-a223-481b-8593-cffadee95bea")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 501.65 295.91 270)
 		(unit 1)
@@ -11053,7 +11369,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:TPS62162DSG")
-		(at 655.32 190.5 0)
+		(at 637.54 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11064,7 +11380,7 @@
 		(fields_autoplaced yes)
 		(uuid "82c37762-e891-4b82-8b72-15f68752a87b")
 		(property "Reference" "U2"
-			(at 655.32 175.26 0)
+			(at 637.54 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11074,7 +11390,7 @@
 			)
 		)
 		(property "Value" "TPS62162DSG"
-			(at 655.32 177.8 0)
+			(at 637.54 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11084,7 +11400,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
-			(at 659.13 199.39 0)
+			(at 641.35 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11096,7 +11412,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps62160.pdf"
-			(at 655.32 176.53 0)
+			(at 637.54 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11107,7 +11423,7 @@
 			)
 		)
 		(property "Description" "1A Step-Down Converter with DCS-Control, fixed 3.3V output, 3-17V input voltage, WSON-8"
-			(at 655.32 190.5 0)
+			(at 637.54 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
