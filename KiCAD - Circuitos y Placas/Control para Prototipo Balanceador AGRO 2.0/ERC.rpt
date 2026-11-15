@@ -1,30 +1,98 @@
-ERC report (2026-11-11T19:13:35, Encoding UTF8)
-Report includes: Warnings
+ERC report (2026-11-14T17:31:44, Encoding UTF8)
+Report includes: Errors, Warnings
 
 ***** Sheet /
-[lib_symbol_issues]: La biblioteca de símbolos '2026-10-29_05-58-03' no se encontró en 'C:/Users/joelc/Desktop/ul_TSC2046IPW/KiCADv6/2026-10-29_05-58-03.kicad_sym'
+[footprint_link_issues]: La configuración actual no incluye la biblioteca de huellas ''
     ; warning
-    @(13950 mils, 12550 mils): Symbol U1 [TSC2046IPW]
+    @(14100 mils, 12550 mils): Symbol U1 [TSC2046IPW]
 [pin_to_pin]: Pines del tipo Bidireccional y Salida de alimentación están conectados
     ; warning
-    @(16550 mils, 13150 mils): Symbol U1 Pin 10 [IOVDD, Bidireccional, Línea]
-    @(15400 mils, 9950 mils): Symbol U6 Pin 2 [VO, Salida de alimentación, Línea]
-[multiple_net_names]: Tanto CHIP_1A como SERVO_X_PWM están conectados a los mismos elementos; se utilizará CHIP_1A en el listado de redes
-    ; warning
-    @(18600 mils, 11650 mils): Global Label 'CHIP_1A'
-    @(18950 mils, 12350 mils): Global Label 'SERVO_X_PWM'
-[multiple_net_names]: Tanto CHIP_2A como SERVO_Y_PWM están conectados a los mismos elementos; se utilizará CHIP_2A en el listado de redes
+    @(16700 mils, 13150 mils): Symbol U1 Pin 10 [IOVDD, Bidireccional, Línea]
+    @(15200 mils, 8350 mils): Symbol U6 Pin 2 [VO, Salida de alimentación, Línea]
+[multiple_net_names]: Tanto CHIP_2A como SERVO_YN_PWM están conectados a los mismos elementos; se utilizará CHIP_2A en el listado de redes
     ; warning
     @(18600 mils, 11850 mils): Global Label 'CHIP_2A'
-    @(18950 mils, 13100 mils): Global Label 'SERVO_Y_PWM'
+    @(18950 mils, 13100 mils): Global Label 'SERVO_YN_PWM'
+[multiple_net_names]: Tanto CHIP_3A como SERVO_XP_PWM están conectados a los mismos elementos; se utilizará CHIP_3A en el listado de redes
+    ; warning
+    @(18650 mils, 14250 mils): Global Label 'CHIP_3A'
+    @(19000 mils, 14950 mils): Global Label 'SERVO_XP_PWM'
+[multiple_net_names]: Tanto CHIP_1A como SERVO_XN_PWM están conectados a los mismos elementos; se utilizará CHIP_1A en el listado de redes
+    ; warning
+    @(19300 mils, 12350 mils): Global Label 'CHIP_1A'
+    @(19650 mils, 9050 mils): Global Label 'SERVO_XN_PWM'
+[multiple_net_names]: Tanto CHIP_4A como SERVO_YP_PWM están conectados a los mismos elementos; se utilizará CHIP_4A en el listado de redes
+    ; warning
+    @(19350 mils, 15700 mils): Global Label 'CHIP_4A'
+    @(19650 mils, 9350 mils): Global Label 'SERVO_YP_PWM'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(21500 mils, 8450 mils): Global Label 'ESP_TX'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(21500 mils, 8550 mils): Global Label 'ESP_RX'
+[pin_to_pin]: Pines del tipo No especificado y Entrada de alimentación están conectados
+    ; warning
+    @(22950 mils, 7750 mils): Symbol U2 Pin B1 [GND, No especificado, Línea]
+    @(22650 mils, 7750 mils): Symbol #PWR046 Pin 1 [Entrada de alimentación, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Entrada de alimentación están conectados
+    ; warning
+    @(22950 mils, 8050 mils): Symbol U2 Pin B4 [VBUS, No especificado, Línea]
+    @(22750 mils, 8050 mils): Symbol #PWR059 Pin 1 [Entrada de alimentación, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Pasivo están conectados
+    ; warning
+    @(22950 mils, 8150 mils): Symbol U2 Pin B5 [CC2, No especificado, Línea]
+    @(22450 mils, 8000 mils): Symbol R22 Pin 2 [Pasivo, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Pasivo están conectados
+    ; warning
+    @(22950 mils, 8250 mils): Symbol U2 Pin B6 [DP2, No especificado, Línea]
+    @(23800 mils, 9650 mils): Symbol U7 Pin 1 [I/O1, Pasivo, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Pasivo están conectados
+    ; warning
+    @(22950 mils, 8350 mils): Symbol U2 Pin B7 [DN2, No especificado, Línea]
+    @(23800 mils, 9750 mils): Symbol U7 Pin 3 [I/O2, Pasivo, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Entrada de alimentación están conectados
+    ; warning
+    @(22950 mils, 8550 mils): Symbol U2 Pin B9 [VBUS, No especificado, Línea]
+    @(22700 mils, 8550 mils): Symbol #PWR060 Pin 1 [Entrada de alimentación, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Entrada de alimentación están conectados
+    ; warning
+    @(22950 mils, 8850 mils): Symbol U2 Pin B12 [GND, No especificado, Línea]
+    @(22650 mils, 8850 mils): Symbol #PWR047 Pin 1 [Entrada de alimentación, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Entrada de alimentación están conectados
+    ; warning
+    @(23450 mils, 9050 mils): Symbol U2 Pin 0 [EH, No especificado, Línea]
+    @(23450 mils, 9100 mils): Symbol #PWR058 Pin 1 [Entrada de alimentación, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Entrada de alimentación están conectados
+    ; warning
+    @(23950 mils, 7750 mils): Symbol U2 Pin A12 [GND, No especificado, Línea]
+    @(24050 mils, 7750 mils): Symbol #PWR044 Pin 1 [Entrada de alimentación, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Entrada de alimentación están conectados
+    ; warning
+    @(23950 mils, 8050 mils): Symbol U2 Pin A9 [VBUS, No especificado, Línea]
+    @(24100 mils, 8050 mils): Symbol #PWR062 Pin 1 [Entrada de alimentación, Línea]
+[pin_to_pin]: Pines del tipo No especificado y No especificado están conectados
+    ; warning
+    @(23950 mils, 8250 mils): Symbol U2 Pin A7 [DN1, No especificado, Línea]
+    @(22950 mils, 8350 mils): Symbol U2 Pin B7 [DN2, No especificado, Línea]
+[pin_to_pin]: Pines del tipo No especificado y No especificado están conectados
+    ; warning
+    @(23950 mils, 8350 mils): Symbol U2 Pin A6 [DP1, No especificado, Línea]
+    @(22950 mils, 8250 mils): Symbol U2 Pin B6 [DP2, No especificado, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Pasivo están conectados
+    ; warning
+    @(23950 mils, 8450 mils): Symbol U2 Pin A5 [CC1, No especificado, Línea]
+    @(24400 mils, 8600 mils): Symbol R21 Pin 1 [Pasivo, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Entrada de alimentación están conectados
+    ; warning
+    @(23950 mils, 8550 mils): Symbol U2 Pin A4 [VBUS, No especificado, Línea]
+    @(24100 mils, 8550 mils): Symbol #PWR061 Pin 1 [Entrada de alimentación, Línea]
+[pin_to_pin]: Pines del tipo No especificado y Entrada de alimentación están conectados
+    ; warning
+    @(23950 mils, 8850 mils): Symbol U2 Pin A1 [GND, No especificado, Línea]
+    @(24050 mils, 8850 mils): Symbol #PWR045 Pin 1 [Entrada de alimentación, Línea]
 
- ** ERC messages: 6  Errors 0  Warnings 6
+ ** ERC messages: 23  Errors 0  Warnings 23
 
  ** Ignored checks:
     - Global label only appears once in the schematic

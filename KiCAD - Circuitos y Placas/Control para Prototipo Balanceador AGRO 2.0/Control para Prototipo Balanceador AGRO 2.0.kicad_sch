@@ -1147,7 +1147,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x09_Pin"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1158,7 +1158,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 12.7 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1167,8 +1167,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x09_Pin"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1199,7 +1199,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x09, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1242,29 +1242,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x09_Pin_1_1"
-				(rectangle
-					(start 0.8636 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "Conn_01x05_Pin_1_1"
 				(rectangle
 					(start 0.8636 5.207)
 					(end 0 4.953)
@@ -1318,52 +1296,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 10.16) (xy 0.8636 10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 7.62) (xy 0.8636 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -1426,32 +1358,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -10.16) (xy 0.8636 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at 5.08 10.16 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1469,7 +1377,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 7.62 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1487,7 +1395,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1505,7 +1413,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1523,7 +1431,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 -5.08 180)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1540,17 +1448,177 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Jack-DC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jack-DC"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DC Barrel Jack"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jack-DC_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jack-DC_1_1"
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_6"
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1559,52 +1627,16 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_7"
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -10.16 180)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2136,6 +2168,172 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2790,6 +2988,397 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Interface_USB:CH340C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.08 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "CH340C"
+				(at 1.27 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+				(at -18.542 30.226 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
+				(at -6.604 33.274 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
+				(at -1.524 36.068 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "USB UART Serial Converter Interface"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CH340C_0_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CH340C_1_1"
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "UD+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "UD-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~{CTS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~{DSR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{RI}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "~{DCD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "~{DTR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "~{RTS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "R232"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5505,7 +6094,7 @@
 	)
 	(rectangle
 		(start 572.77 284.48)
-		(end 610.87 313.69)
+		(end 610.87 308.61)
 		(stroke
 			(width 0)
 			(type default)
@@ -5516,7 +6105,7 @@
 		(uuid "7f4829a0-797e-4d83-8608-c67793f1113b")
 	)
 	(rectangle
-		(start 332.74 179.07)
+		(start 325.12 172.72)
 		(end 438.15 232.41)
 		(stroke
 			(width 0)
@@ -5541,7 +6130,7 @@
 	)
 	(rectangle
 		(start 441.96 179.07)
-		(end 662.94 275.59)
+		(end 689.61 275.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -5615,7 +6204,7 @@
 	)
 	(text "COMUNICACION ESP32 I2C \nA PANTALLA\n"
 		(exclude_from_sim no)
-		(at 590.804 281.178 0)
+		(at 592.074 281.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5655,7 +6244,7 @@
 	)
 	(text "REGULADOR PARA \n3.3v\n\n"
 		(exclude_from_sim no)
-		(at 374.65 229.362 0)
+		(at 374.396 229.108 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5723,6 +6312,16 @@
 		)
 		(uuid "85cc1f62-caae-4c5f-b824-78ccd9a76bbe")
 	)
+	(text "COMUNICACION \nTX Y RX\n"
+		(exclude_from_sim no)
+		(at 676.402 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92f707c3-0c59-4d0c-9983-a0e4e56ad2d7")
+	)
 	(text "CONEXION CON SERVOS\n"
 		(exclude_from_sim no)
 		(at 529.844 314.452 0)
@@ -5735,7 +6334,7 @@
 	)
 	(text "PANTALLA_OLED\n"
 		(exclude_from_sim no)
-		(at 592.836 290.322 0)
+		(at 593.598 288.798 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5752,6 +6351,16 @@
 			)
 		)
 		(uuid "a86a9805-64c5-4e21-bae9-c932d79c6a91")
+	)
+	(text "CONECTOR USB-C"
+		(exclude_from_sim no)
+		(at 617.982 192.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac8c7b9f-8d58-4cb6-9636-39491da8c870")
 	)
 	(text "ALIMENTACION\n"
 		(exclude_from_sim no)
@@ -5785,7 +6394,7 @@
 	)
 	(text "ALIMENTACION GENERAL \n"
 		(exclude_from_sim no)
-		(at 384.81 177.546 0)
+		(at 384.556 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5912,6 +6521,18 @@
 		(uuid "6220ea1f-98e8-4157-8334-9ef3b689af3f")
 	)
 	(junction
+		(at 349.25 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "673cf690-bee1-4a9c-b514-cd7e4d59542c")
+	)
+	(junction
+		(at 360.68 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6da8a2a9-7ddc-49fb-b18c-88ffda2e6869")
+	)
+	(junction
 		(at 391.16 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5928,6 +6549,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "790df8d1-0257-46d6-9db9-73f6d532b3e9")
+	)
+	(junction
+		(at 353.06 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "886b447f-39b9-4e9f-a90e-5387632f5e2c")
 	)
 	(junction
 		(at 374.65 303.53)
@@ -5996,6 +6623,12 @@
 		(uuid "bdb424ae-024d-4386-a5a5-8bd5070028ab")
 	)
 	(junction
+		(at 652.78 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf348d1c-55c4-44a4-9201-bb1bf87ada29")
+	)
+	(junction
 		(at 548.64 307.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6043,16 +6676,34 @@
 		(color 0 0 0 0)
 		(uuid "e171f238-97bf-47ac-a242-ba976f02c2ef")
 	)
+	(junction
+		(at 655.32 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9d5e7e8-7a03-4910-8ae0-ef98cb52e8e8")
+	)
+	(no_connect
+		(at 665.48 212.09)
+		(uuid "00e1d6ee-9d29-452f-979e-572f4fd2a911")
+	)
 	(no_connect
 		(at 538.48 260.35)
 		(uuid "08cb9ff2-f8c7-4804-9471-9de0a4638626")
+	)
+	(no_connect
+		(at 538.48 224.79)
+		(uuid "0a993c77-4925-4171-8c17-f10a3172842b")
+	)
+	(no_connect
+		(at 665.48 222.25)
+		(uuid "0d1e7832-edaa-4215-a453-fa91b079f4f5")
 	)
 	(no_connect
 		(at 538.48 257.81)
 		(uuid "2064f710-0f9c-4e06-92a0-86f39dc7962a")
 	)
 	(no_connect
-		(at 626.11 204.47)
+		(at 608.33 207.01)
 		(uuid "2ba9008f-84f0-4534-b600-9da2fe3a2bc3")
 	)
 	(no_connect
@@ -6060,8 +6711,24 @@
 		(uuid "4ddf69fb-2166-4587-b2a0-585fa4856ca6")
 	)
 	(no_connect
+		(at 538.48 229.87)
+		(uuid "6ab328b7-7f85-4e6c-bc25-22af1be8280c")
+	)
+	(no_connect
 		(at 508 227.33)
 		(uuid "74569604-229b-43a3-b111-05055a88cdda")
+	)
+	(no_connect
+		(at 665.48 217.17)
+		(uuid "7505ceff-f5b4-45ed-8446-4bb94b8cdfce")
+	)
+	(no_connect
+		(at 665.48 209.55)
+		(uuid "7dd22546-efef-4765-9ef2-22522c036a84")
+	)
+	(no_connect
+		(at 538.48 234.95)
+		(uuid "8ab83e9f-d0b2-4922-aa44-413ec9d816ac")
 	)
 	(no_connect
 		(at 538.48 255.27)
@@ -6080,6 +6747,18 @@
 		(uuid "b16cd8c1-7a81-4782-bbed-ea5b64560579")
 	)
 	(no_connect
+		(at 538.48 227.33)
+		(uuid "b96c8199-19db-47fc-941a-ad3d38805210")
+	)
+	(no_connect
+		(at 538.48 222.25)
+		(uuid "bc810775-4b8d-442c-8fbe-6f536a27f012")
+	)
+	(no_connect
+		(at 538.48 237.49)
+		(uuid "c375758c-21ed-4f8d-b95a-cd6bffc5acdd")
+	)
+	(no_connect
 		(at 424.18 336.55)
 		(uuid "c5e5d4e1-1286-4563-8468-caa558fa94a2")
 	)
@@ -6092,12 +6771,30 @@
 		(uuid "d3464ff4-ade6-4beb-b906-523f3e25c5ee")
 	)
 	(no_connect
-		(at 600.71 212.09)
+		(at 665.48 219.71)
+		(uuid "d9029a3c-e101-4a0e-a552-b582458645c8")
+	)
+	(no_connect
+		(at 582.93 214.63)
 		(uuid "e40f7537-190d-41bb-8542-5a230fe30284")
 	)
 	(no_connect
-		(at 538.48 222.25)
-		(uuid "f8480593-5c3a-4dd2-a2d8-435f1a9c0405")
+		(at 538.48 232.41)
+		(uuid "e4221947-1196-4564-9639-45070738b516")
+	)
+	(no_connect
+		(at 665.48 214.63)
+		(uuid "eb7a5881-48e6-4f9a-9738-7be35c5c10ed")
+	)
+	(wire
+		(pts
+			(xy 340.36 195.58) (xy 346.71 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02525f44-0d3b-4faa-a67e-3a364fd7c616")
 	)
 	(wire
 		(pts
@@ -6121,7 +6818,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 204.47) (xy 575.31 204.47)
+			(xy 561.34 203.2) (xy 562.61 203.2)
 		)
 		(stroke
 			(width 0)
@@ -6161,16 +6858,6 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 234.95) (xy 543.56 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0598b578-bc9d-4e89-95d9-bc75a83ca5ec")
-	)
-	(wire
-		(pts
 			(xy 529.59 190.5) (xy 529.59 193.04)
 		)
 		(stroke
@@ -6191,7 +6878,7 @@
 	)
 	(wire
 		(pts
-			(xy 593.09 222.25) (xy 600.71 222.25)
+			(xy 575.31 224.79) (xy 582.93 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6211,6 +6898,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 181.61) (xy 353.06 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a802d2-9df1-461e-9b41-747c954f2492")
+	)
+	(wire
+		(pts
 			(xy 403.86 212.09) (xy 408.94 212.09)
 		)
 		(stroke
@@ -6218,6 +6915,26 @@
 			(type default)
 		)
 		(uuid "0ac125ed-edf8-4cc0-a440-77f1db9e8c5f")
+	)
+	(wire
+		(pts
+			(xy 538.48 250.19) (xy 542.29 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae9aae8-c0ce-4f3e-baad-4f684e1163f0")
+	)
+	(wire
+		(pts
+			(xy 655.32 227.33) (xy 655.32 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc11c3c-8d0e-4319-b3dd-d5917365453c")
 	)
 	(wire
 		(pts
@@ -6251,23 +6968,13 @@
 	)
 	(wire
 		(pts
-			(xy 614.68 247.65) (xy 617.22 247.65)
+			(xy 600.71 252.73) (xy 603.25 252.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1036f4f7-0a19-424e-a8c5-3df7d13b36c9")
-	)
-	(wire
-		(pts
-			(xy 601.98 247.65) (xy 604.52 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1129edc9-c9d6-4139-a851-4c50cfd7bf6f")
 	)
 	(wire
 		(pts
@@ -6321,6 +7028,16 @@
 	)
 	(wire
 		(pts
+			(xy 652.78 191.77) (xy 655.32 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153ed39d-dd20-430e-b128-5a20205d5260")
+	)
+	(wire
+		(pts
 			(xy 529.59 190.5) (xy 542.29 190.5)
 		)
 		(stroke
@@ -6371,7 +7088,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 207.01) (xy 632.46 207.01)
+			(xy 608.33 209.55) (xy 614.68 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6401,17 +7118,37 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 250.19) (xy 543.56 250.19)
+			(xy 340.36 190.5) (xy 342.9 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d4df6d4-273a-4386-8951-1b761c4b1d78")
+		(uuid "1ce4341b-17b4-4077-b27f-55d8bddd5574")
 	)
 	(wire
 		(pts
-			(xy 586.74 300.99) (xy 596.9 300.99)
+			(xy 618.49 214.63) (xy 608.33 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4672a4-fd5a-4ad3-8b90-2f3295ca3407")
+	)
+	(wire
+		(pts
+			(xy 665.48 201.93) (xy 670.56 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0c1198-a3d8-41be-861c-148b489e2b0c")
+	)
+	(wire
+		(pts
+			(xy 586.74 295.91) (xy 596.9 295.91)
 		)
 		(stroke
 			(width 0)
@@ -6461,6 +7198,16 @@
 	)
 	(wire
 		(pts
+			(xy 538.48 240.03) (xy 542.29 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24720305-319b-46ae-a9af-ea0fe918b858")
+	)
+	(wire
+		(pts
 			(xy 354.33 321.31) (xy 358.14 321.31)
 		)
 		(stroke
@@ -6481,7 +7228,17 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 194.31) (xy 628.65 194.31)
+			(xy 670.56 195.58) (xy 670.56 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265778e6-bb08-4831-abbc-7bfd74f40398")
+	)
+	(wire
+		(pts
+			(xy 608.33 196.85) (xy 610.87 196.85)
 		)
 		(stroke
 			(width 0)
@@ -6531,7 +7288,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 214.63) (xy 629.92 214.63)
+			(xy 608.33 217.17) (xy 612.14 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6561,7 +7318,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 190.5) (xy 400.05 190.5)
+			(xy 350.52 190.5) (xy 353.06 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6631,7 +7388,7 @@
 	)
 	(wire
 		(pts
-			(xy 591.82 209.55) (xy 600.71 209.55)
+			(xy 574.04 212.09) (xy 582.93 212.09)
 		)
 		(stroke
 			(width 0)
@@ -6651,7 +7408,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 212.09) (xy 641.35 212.09)
+			(xy 618.49 218.44) (xy 619.76 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6671,7 +7428,7 @@
 	)
 	(wire
 		(pts
-			(xy 586.74 298.45) (xy 596.9 298.45)
+			(xy 586.74 293.37) (xy 596.9 293.37)
 		)
 		(stroke
 			(width 0)
@@ -6691,16 +7448,6 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 240.03) (xy 543.56 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b2e6ebb-67db-4b99-a507-046a53a2c4a4")
-	)
-	(wire
-		(pts
 			(xy 490.22 205.74) (xy 496.57 205.74)
 		)
 		(stroke
@@ -6708,6 +7455,16 @@
 			(type default)
 		)
 		(uuid "3b313049-9ecc-4aa3-8be2-6ffc2d881b92")
+	)
+	(wire
+		(pts
+			(xy 353.06 189.23) (xy 353.06 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9d0dbc-2059-438c-98aa-2b892091b669")
 	)
 	(wire
 		(pts
@@ -6751,6 +7508,16 @@
 	)
 	(wire
 		(pts
+			(xy 641.35 209.55) (xy 645.16 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413d6110-65de-43db-adcf-6b99138de841")
+	)
+	(wire
+		(pts
 			(xy 538.48 361.95) (xy 543.56 361.95)
 		)
 		(stroke
@@ -6768,6 +7535,16 @@
 			(type default)
 		)
 		(uuid "42339ff0-9e30-48b8-b60b-c7013e298cc3")
+	)
+	(wire
+		(pts
+			(xy 353.06 190.5) (xy 400.05 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a50d4f-1553-4be2-976b-43a63a6a57ac")
 	)
 	(wire
 		(pts
@@ -6798,6 +7575,16 @@
 			(type default)
 		)
 		(uuid "44978453-1543-4930-bfe3-1f7e64bbe11d")
+	)
+	(wire
+		(pts
+			(xy 665.48 204.47) (xy 670.56 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c6afcb-57ea-4b6f-92c6-c2a260483257")
 	)
 	(wire
 		(pts
@@ -6851,33 +7638,13 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 190.5) (xy 350.52 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4743350b-f148-4e4a-a47a-85af508f6201")
-	)
-	(wire
-		(pts
-			(xy 626.11 222.25) (xy 628.65 222.25)
+			(xy 608.33 224.79) (xy 610.87 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49fb2ec2-98a9-495c-805b-b4e5d69eb449")
-	)
-	(wire
-		(pts
-			(xy 609.6 237.49) (xy 609.6 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a24f711-ac84-4031-bbfb-deab1d2a2b7b")
 	)
 	(wire
 		(pts
@@ -6901,16 +7668,6 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 245.11) (xy 543.56 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d4da80e-561f-46f9-8190-ea26a2e42a30")
-	)
-	(wire
-		(pts
 			(xy 424.18 334.01) (xy 427.99 334.01)
 		)
 		(stroke
@@ -6928,6 +7685,16 @@
 			(type default)
 		)
 		(uuid "4eb538b9-e24e-481f-8a46-bcdf953dc7ee")
+	)
+	(wire
+		(pts
+			(xy 652.78 191.77) (xy 652.78 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5193b403-6593-4631-94df-036c72ba20d5")
 	)
 	(wire
 		(pts
@@ -6958,16 +7725,6 @@
 			(type default)
 		)
 		(uuid "52aec8d5-779d-4b9c-aa0a-8e0c401e12ce")
-	)
-	(wire
-		(pts
-			(xy 538.48 232.41) (xy 543.56 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5438d87f-19b6-4a65-b63e-195762a5e051")
 	)
 	(wire
 		(pts
@@ -7021,16 +7778,6 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 242.57) (xy 543.56 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5952e693-9db7-4b40-83d1-ed790d694c45")
-	)
-	(wire
-		(pts
 			(xy 473.71 367.03) (xy 478.79 367.03)
 		)
 		(stroke
@@ -7048,6 +7795,16 @@
 			(type default)
 		)
 		(uuid "5b0d6101-4a9b-453c-812a-e72713be78f9")
+	)
+	(wire
+		(pts
+			(xy 538.48 247.65) (xy 542.29 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bef5432-d0be-4f64-a463-210b6323fa9e")
 	)
 	(wire
 		(pts
@@ -7138,6 +7895,16 @@
 			(type default)
 		)
 		(uuid "60092798-1c14-4200-9bc2-9740474bda66")
+	)
+	(wire
+		(pts
+			(xy 346.71 195.58) (xy 346.71 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c7a72d-ea7d-4b8a-bf5d-494e9cf870f2")
 	)
 	(wire
 		(pts
@@ -7241,6 +8008,16 @@
 	)
 	(wire
 		(pts
+			(xy 670.56 191.77) (xy 668.02 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5974e7-13bd-4dbf-8872-80c1bd3679f0")
+	)
+	(wire
+		(pts
 			(xy 523.24 402.59) (xy 529.59 402.59)
 		)
 		(stroke
@@ -7251,27 +8028,7 @@
 	)
 	(wire
 		(pts
-			(xy 594.36 214.63) (xy 600.71 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dd65bc2-9f85-4309-a944-e8e6b64bdae0")
-	)
-	(wire
-		(pts
-			(xy 538.48 247.65) (xy 543.56 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fe0c9e8-f6b4-49de-a330-8246d63ffab1")
-	)
-	(wire
-		(pts
-			(xy 614.68 245.11) (xy 617.22 245.11)
+			(xy 600.71 250.19) (xy 603.25 250.19)
 		)
 		(stroke
 			(width 0)
@@ -7371,7 +8128,7 @@
 	)
 	(wire
 		(pts
-			(xy 651.51 215.9) (xy 651.51 212.09)
+			(xy 629.92 222.25) (xy 629.92 218.44)
 		)
 		(stroke
 			(width 0)
@@ -7521,6 +8278,16 @@
 	)
 	(wire
 		(pts
+			(xy 577.85 204.47) (xy 582.93 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2e8c9b-7ab5-4b43-895e-b2fead35c5d5")
+	)
+	(wire
+		(pts
 			(xy 538.48 214.63) (xy 546.1 214.63)
 		)
 		(stroke
@@ -7528,6 +8295,16 @@
 			(type default)
 		)
 		(uuid "8d4eb851-fdd9-4081-b7f1-feb3e827588d")
+	)
+	(wire
+		(pts
+			(xy 595.63 242.57) (xy 595.63 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e844cd6-7629-4020-bddb-911c839c9c83")
 	)
 	(wire
 		(pts
@@ -7561,7 +8338,17 @@
 	)
 	(wire
 		(pts
-			(xy 591.82 207.01) (xy 600.71 207.01)
+			(xy 641.35 212.09) (xy 645.16 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1d290e-2938-44bc-a179-03333674bfec")
+	)
+	(wire
+		(pts
+			(xy 574.04 209.55) (xy 582.93 209.55)
 		)
 		(stroke
 			(width 0)
@@ -7578,16 +8365,6 @@
 			(type default)
 		)
 		(uuid "9cfca46d-d723-4b53-b29a-207e50ba28be")
-	)
-	(wire
-		(pts
-			(xy 601.98 245.11) (xy 604.52 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9de8ffbb-7945-453d-bb5d-53af2610d77c")
 	)
 	(wire
 		(pts
@@ -7611,6 +8388,16 @@
 	)
 	(wire
 		(pts
+			(xy 655.32 191.77) (xy 660.4 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07db398-82aa-4c22-8bbe-ae8a498061ca")
+	)
+	(wire
+		(pts
 			(xy 556.26 372.11) (xy 556.26 373.38)
 		)
 		(stroke
@@ -7618,16 +8405,6 @@
 			(type default)
 		)
 		(uuid "a1203c60-0be3-4991-9f1c-3f7fa0f096ca")
-	)
-	(wire
-		(pts
-			(xy 538.48 237.49) (xy 543.56 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a17c7118-dbda-4175-b716-ce83cb383f42")
 	)
 	(wire
 		(pts
@@ -7648,6 +8425,16 @@
 			(type default)
 		)
 		(uuid "a46ebf01-6ea9-44e6-b7da-e4089933d1b9")
+	)
+	(wire
+		(pts
+			(xy 341.63 181.61) (xy 349.25 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4bef59a-235f-44b8-9aa0-7efbcab2cf32")
 	)
 	(wire
 		(pts
@@ -7691,6 +8478,26 @@
 	)
 	(wire
 		(pts
+			(xy 652.78 190.5) (xy 652.78 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b17250-9021-417d-9b6b-519e6a94745b")
+	)
+	(wire
+		(pts
+			(xy 572.77 207.01) (xy 582.93 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a847b8d2-5be5-471b-9191-723056488bc8")
+	)
+	(wire
+		(pts
 			(xy 349.25 212.09) (xy 361.95 212.09)
 		)
 		(stroke
@@ -7711,17 +8518,7 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 229.87) (xy 543.56 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8c70896-4d92-48a3-ada5-402eb176281b")
-	)
-	(wire
-		(pts
-			(xy 626.11 201.93) (xy 628.65 201.93)
+			(xy 608.33 204.47) (xy 612.14 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7811,6 +8608,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 177.8) (xy 349.25 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b669deec-c1f4-4378-8c77-d1f8655188d2")
+	)
+	(wire
+		(pts
 			(xy 403.86 190.5) (xy 414.02 190.5)
 		)
 		(stroke
@@ -7818,16 +8625,6 @@
 			(type default)
 		)
 		(uuid "b6ca734d-ddbb-42fc-8234-744a739dfe14")
-	)
-	(wire
-		(pts
-			(xy 538.48 227.33) (xy 543.56 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9826257-8b6b-481c-8a92-0042d42bbd66")
 	)
 	(wire
 		(pts
@@ -7851,6 +8648,16 @@
 	)
 	(wire
 		(pts
+			(xy 588.01 250.19) (xy 590.55 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7d77fd-d30d-4db9-b4ff-c54a983b5f95")
+	)
+	(wire
+		(pts
 			(xy 459.74 219.71) (xy 459.74 222.25)
 		)
 		(stroke
@@ -7871,6 +8678,16 @@
 	)
 	(wire
 		(pts
+			(xy 655.32 191.77) (xy 655.32 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0340e5d-c9d1-4098-86b3-e6e061ba6608")
+	)
+	(wire
+		(pts
 			(xy 549.91 373.38) (xy 549.91 377.19)
 		)
 		(stroke
@@ -7881,7 +8698,7 @@
 	)
 	(wire
 		(pts
-			(xy 593.09 194.31) (xy 600.71 194.31)
+			(xy 575.31 196.85) (xy 582.93 196.85)
 		)
 		(stroke
 			(width 0)
@@ -7941,6 +8758,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 203.2) (xy 360.68 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e4db78-0f5d-446b-97ba-5f6a0b8cd65d")
+	)
+	(wire
+		(pts
 			(xy 474.98 210.82) (xy 481.33 210.82)
 		)
 		(stroke
@@ -7981,6 +8808,16 @@
 	)
 	(wire
 		(pts
+			(xy 588.01 252.73) (xy 590.55 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9a781f-624e-4bb4-935b-787578c5b5c1")
+	)
+	(wire
+		(pts
 			(xy 386.08 212.09) (xy 391.16 212.09)
 		)
 		(stroke
@@ -8001,7 +8838,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 209.55) (xy 632.46 209.55)
+			(xy 608.33 212.09) (xy 614.68 212.09)
 		)
 		(stroke
 			(width 0)
@@ -8081,16 +8918,6 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 224.79) (xy 543.56 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a3d300-f9de-405f-b085-ae54986b1d4c")
-	)
-	(wire
-		(pts
 			(xy 542.29 295.91) (xy 554.99 295.91)
 		)
 		(stroke
@@ -8141,6 +8968,16 @@
 	)
 	(wire
 		(pts
+			(xy 572.77 203.2) (xy 570.23 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd04e144-2ca0-4828-ba02-f13ab8ebbce8")
+	)
+	(wire
+		(pts
 			(xy 497.84 304.8) (xy 495.3 304.8)
 		)
 		(stroke
@@ -8161,23 +8998,13 @@
 	)
 	(wire
 		(pts
-			(xy 651.51 212.09) (xy 648.97 212.09)
+			(xy 629.92 218.44) (xy 627.38 218.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de5a9919-c842-48a9-b905-37c9da120bbb")
-	)
-	(wire
-		(pts
-			(xy 582.93 204.47) (xy 600.71 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0107905-ef3a-44cf-bb40-20a11e133cc6")
 	)
 	(wire
 		(pts
@@ -8211,7 +9038,7 @@
 	)
 	(wire
 		(pts
-			(xy 586.74 303.53) (xy 596.9 303.53)
+			(xy 586.74 298.45) (xy 596.9 298.45)
 		)
 		(stroke
 			(width 0)
@@ -8248,6 +9075,16 @@
 			(type default)
 		)
 		(uuid "e5b0b2bf-b29c-46dc-8f98-de52f72768ce")
+	)
+	(wire
+		(pts
+			(xy 572.77 203.2) (xy 572.77 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61afeb0-af13-4b56-ae48-b0a4864c0745")
 	)
 	(wire
 		(pts
@@ -8291,13 +9128,23 @@
 	)
 	(wire
 		(pts
-			(xy 586.74 306.07) (xy 596.9 306.07)
+			(xy 586.74 300.99) (xy 596.9 300.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e875013e-dbaa-481b-98d5-4d7f21238e20")
+	)
+	(wire
+		(pts
+			(xy 595.63 229.87) (xy 595.63 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91fb35c-211a-46cf-90be-c8405bb53233")
 	)
 	(wire
 		(pts
@@ -8321,6 +9168,16 @@
 	)
 	(wire
 		(pts
+			(xy 538.48 242.57) (xy 542.29 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8c1cb3-9be9-4388-b4c1-cd13ce533d74")
+	)
+	(wire
+		(pts
 			(xy 499.11 370.84) (xy 496.57 370.84)
 		)
 		(stroke
@@ -8328,6 +9185,16 @@
 			(type default)
 		)
 		(uuid "edde2a91-e8f6-4fdc-b7e1-32be08d0b807")
+	)
+	(wire
+		(pts
+			(xy 538.48 245.11) (xy 542.29 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee831276-3914-4c54-b77c-c5ff05bc8e03")
 	)
 	(wire
 		(pts
@@ -8381,16 +9248,6 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 201.93) (xy 600.71 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2664655-b3c1-47c0-aedd-cf5865330618")
-	)
-	(wire
-		(pts
 			(xy 403.86 212.09) (xy 403.86 214.63)
 		)
 		(stroke
@@ -8398,6 +9255,16 @@
 			(type default)
 		)
 		(uuid "f27e14f1-1792-4056-a074-da0b2bfae3d9")
+	)
+	(wire
+		(pts
+			(xy 618.49 218.44) (xy 618.49 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f282b179-2934-47fe-8c07-9ee2eeff438c")
 	)
 	(wire
 		(pts
@@ -8431,7 +9298,7 @@
 	)
 	(wire
 		(pts
-			(xy 609.6 252.73) (xy 609.6 255.27)
+			(xy 595.63 257.81) (xy 595.63 260.35)
 		)
 		(stroke
 			(width 0)
@@ -8468,6 +9335,16 @@
 			(type default)
 		)
 		(uuid "f9185171-d015-4135-8b59-1c4867b7a5e8")
+	)
+	(wire
+		(pts
+			(xy 576.58 217.17) (xy 582.93 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa03dcc0-e604-4dc4-9c36-2dee7a3c6d23")
 	)
 	(wire
 		(pts
@@ -8510,7 +9387,27 @@
 		(uuid "fe945d6c-58f0-47eb-9562-4621cffc7918")
 	)
 	(label "USB_DN"
-		(at 617.22 247.65 0)
+		(at 641.35 212.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ad693dc-8e14-46ec-aec3-3fbd2b7a501c")
+	)
+	(label "USB_DP"
+		(at 641.35 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "602f1ab5-8a60-4429-a7a0-c69f859be876")
+	)
+	(label "USB_DN"
+		(at 603.25 252.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8519,28 +9416,8 @@
 		)
 		(uuid "9fb3f6b1-946c-4f10-be5a-fefa020202b5")
 	)
-	(label "USB_DN"
-		(at 543.56 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb1f10cf-d094-409f-831a-a11c8265ec76")
-	)
 	(label "USB_DP"
-		(at 543.56 227.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da1bf45a-6589-41f8-b76d-0e18ec755a11")
-	)
-	(label "USB_DP"
-		(at 617.22 245.11 0)
+		(at 603.25 250.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8549,7 +9426,7 @@
 		)
 		(uuid "dc2a926f-ac67-43cc-8d5f-ebb5100d1354")
 	)
-	(global_label "Servo_Motor_X+_Signal"
+	(global_label "Servo_Motor_XP_Signal"
 		(shape input)
 		(at 509.27 361.95 0)
 		(fields_autoplaced yes)
@@ -8561,7 +9438,7 @@
 		)
 		(uuid "02495744-e2a5-4d13-a574-ad4118e24132")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 534.3286 361.95 0)
+			(at 534.0262 361.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8599,7 +9476,7 @@
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 596.9 306.07 0)
+		(at 596.9 300.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8609,7 +9486,7 @@
 		)
 		(uuid "17089699-fbce-4ae3-8788-acacf58c9205")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 607.4447 306.07 0)
+			(at 607.4447 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8645,7 +9522,7 @@
 			)
 		)
 	)
-	(global_label "SERVO_X-_PWM"
+	(global_label "SERVO_XN_PWM"
 		(shape input)
 		(at 499.11 229.87 180)
 		(fields_autoplaced yes)
@@ -8657,7 +9534,7 @@
 		)
 		(uuid "2457c8c8-b9dc-4cc9-8859-b676a6deeb74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 481.1873 229.87 0)
+			(at 481.4292 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8669,7 +9546,7 @@
 			)
 		)
 	)
-	(global_label "Servo_Motor_Y-_Signal"
+	(global_label "Servo_Motor_YN_Signal"
 		(shape input)
 		(at 524.51 341.63 0)
 		(fields_autoplaced yes)
@@ -8681,7 +9558,7 @@
 		)
 		(uuid "2499cc65-78bf-4ba5-954d-0de9bae1a7bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 549.4477 341.63 0)
+			(at 549.2058 341.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8791,7 +9668,7 @@
 	)
 	(global_label "DN_1Y2"
 		(shape input)
-		(at 591.82 209.55 180)
+		(at 574.04 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8801,7 +9678,7 @@
 		)
 		(uuid "2c1b577c-251a-4e10-90bd-5e6be9426fca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 581.7591 209.55 0)
+			(at 563.9791 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8885,7 +9762,7 @@
 			)
 		)
 	)
-	(global_label "SERVO_Y+_PWM"
+	(global_label "SERVO_YP_PWM"
 		(shape input)
 		(at 499.11 237.49 180)
 		(fields_autoplaced yes)
@@ -8897,7 +9774,7 @@
 		)
 		(uuid "34d2e27d-9908-4c6a-a1f4-b5909ae7caf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 481.3082 237.49 0)
+			(at 481.6106 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8909,7 +9786,7 @@
 			)
 		)
 	)
-	(global_label "Servo_Motor_X-_Signal"
+	(global_label "Servo_Motor_XN_Signal"
 		(shape input)
 		(at 508 295.91 0)
 		(fields_autoplaced yes)
@@ -8921,7 +9798,7 @@
 		)
 		(uuid "39c019f4-66bb-41b7-8e96-cc9f1f4ce4e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 533.0586 295.91 0)
+			(at 532.8167 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8957,7 +9834,7 @@
 			)
 		)
 	)
-	(global_label "Servo_Motor_Y+_Signal"
+	(global_label "Servo_Motor_YP_Signal"
 		(shape input)
 		(at 525.78 407.67 0)
 		(fields_autoplaced yes)
@@ -8969,7 +9846,7 @@
 		)
 		(uuid "40d75ffb-72e7-4cc5-bb80-5679488509b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 550.7177 407.67 0)
+			(at 550.4153 407.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9005,7 +9882,7 @@
 			)
 		)
 	)
-	(global_label "Servo_Motor_X+_Signal"
+	(global_label "Servo_Motor_XP_Signal"
 		(shape input)
 		(at 527.05 391.16 0)
 		(fields_autoplaced yes)
@@ -9017,7 +9894,31 @@
 		)
 		(uuid "467212fc-abf4-4032-bdd3-df94c5114721")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 552.1086 391.16 0)
+			(at 551.8062 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ESP_TX"
+		(shape input)
+		(at 670.56 204.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46d4197a-68f8-48fd-a3f7-379af0a57a32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 680.3184 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9055,7 +9956,7 @@
 	)
 	(global_label "DN_1Y2"
 		(shape input)
-		(at 632.46 207.01 0)
+		(at 614.68 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9065,7 +9966,7 @@
 		)
 		(uuid "4ad03891-e9cb-4728-9791-ef6aa353d6b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 642.5209 207.01 0)
+			(at 624.7409 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9079,7 +9980,7 @@
 	)
 	(global_label "DP_1Y2"
 		(shape input)
-		(at 601.98 247.65 180)
+		(at 588.01 250.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9089,7 +9990,7 @@
 		)
 		(uuid "54e8484d-52ea-4607-b6ec-b68065433beb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 591.9796 247.65 0)
+			(at 578.0096 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9103,7 +10004,7 @@
 	)
 	(global_label "DP_1Y2"
 		(shape input)
-		(at 632.46 209.55 0)
+		(at 614.68 212.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9113,7 +10014,7 @@
 		)
 		(uuid "5b908f00-dcef-4b14-a0b6-17a6f97cb13d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 642.4604 209.55 0)
+			(at 624.6804 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9173,7 +10074,7 @@
 			)
 		)
 	)
-	(global_label "SERVO_X+_PWM"
+	(global_label "SERVO_XP_PWM"
 		(shape input)
 		(at 482.6 379.73 180)
 		(fields_autoplaced yes)
@@ -9185,7 +10086,7 @@
 		)
 		(uuid "6b1ab339-a965-4c30-889b-dfdf84c3a8b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 464.6773 379.73 0)
+			(at 464.9797 379.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9197,7 +10098,7 @@
 			)
 		)
 	)
-	(global_label "Servo_Motor_Y-_Signal"
+	(global_label "Servo_Motor_YN_Signal"
 		(shape input)
 		(at 508 304.8 0)
 		(fields_autoplaced yes)
@@ -9209,7 +10110,7 @@
 		)
 		(uuid "6e23eee7-9f22-4aad-8f69-b494368d60b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 532.9377 304.8 0)
+			(at 532.6958 304.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9221,7 +10122,7 @@
 			)
 		)
 	)
-	(global_label "Servo_Motor_Y+_Signal"
+	(global_label "Servo_Motor_YP_Signal"
 		(shape input)
 		(at 509.27 370.84 0)
 		(fields_autoplaced yes)
@@ -9233,7 +10134,7 @@
 		)
 		(uuid "6f85a3e8-f63e-4cd8-baa8-319f55100420")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 534.2077 370.84 0)
+			(at 533.9053 370.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9245,7 +10146,7 @@
 			)
 		)
 	)
-	(global_label "SERVO_Y-_PWM"
+	(global_label "SERVO_YN_PWM"
 		(shape input)
 		(at 481.33 332.74 180)
 		(fields_autoplaced yes)
@@ -9257,7 +10158,7 @@
 		)
 		(uuid "6fd129b8-0e66-4f5e-8f79-5d45422a50e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 463.5282 332.74 0)
+			(at 463.7701 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9341,7 +10242,7 @@
 			)
 		)
 	)
-	(global_label "Servo_Motor_X-_Signal"
+	(global_label "Servo_Motor_XN_Signal"
 		(shape input)
 		(at 525.78 325.12 0)
 		(fields_autoplaced yes)
@@ -9353,7 +10254,7 @@
 		)
 		(uuid "7ee1af64-2929-4e88-a4a6-5538f1971a1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 550.8386 325.12 0)
+			(at 550.5967 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9485,7 +10386,7 @@
 			)
 		)
 	)
-	(global_label "SERVO_X-_PWM"
+	(global_label "SERVO_XN_PWM"
 		(shape input)
 		(at 481.33 313.69 180)
 		(fields_autoplaced yes)
@@ -9497,7 +10398,7 @@
 		)
 		(uuid "afb1393a-27e8-4f69-81e7-58f7fda3b68b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 463.4073 313.69 0)
+			(at 463.6492 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9535,7 +10436,7 @@
 	)
 	(global_label "DN_1Y2"
 		(shape input)
-		(at 601.98 245.11 180)
+		(at 588.01 252.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9545,7 +10446,7 @@
 		)
 		(uuid "b816198a-9558-4de7-81bd-3e1c341d1a15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 591.9191 245.11 0)
+			(at 577.9491 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9629,7 +10530,7 @@
 			)
 		)
 	)
-	(global_label "SERVO_Y-_PWM"
+	(global_label "SERVO_YN_PWM"
 		(shape input)
 		(at 499.11 232.41 180)
 		(fields_autoplaced yes)
@@ -9641,7 +10542,7 @@
 		)
 		(uuid "c14ed5cb-c1c1-4bdb-a8f0-c8924bde2bb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 481.3082 232.41 0)
+			(at 481.5501 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9653,7 +10554,7 @@
 			)
 		)
 	)
-	(global_label "SERVO_X+_PWM"
+	(global_label "SERVO_XP_PWM"
 		(shape input)
 		(at 499.11 234.95 180)
 		(fields_autoplaced yes)
@@ -9665,7 +10566,7 @@
 		)
 		(uuid "c331c1a0-a604-4e6e-86cb-32ebe63bb478")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 481.1873 234.95 0)
+			(at 481.4897 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9679,7 +10580,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape input)
-		(at 596.9 303.53 0)
+		(at 596.9 298.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9689,7 +10590,31 @@
 		)
 		(uuid "d3e7cdc2-b56f-473b-8b07-5961635b8ef6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 607.5052 303.53 0)
+			(at 607.5052 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ESP_RX"
+		(shape input)
+		(at 670.56 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d658b014-4ca1-473a-80c3-d8d3952c215e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 680.6208 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9703,7 +10628,7 @@
 	)
 	(global_label "DP_1Y2"
 		(shape input)
-		(at 591.82 207.01 180)
+		(at 574.04 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9713,7 +10638,7 @@
 		)
 		(uuid "d8487bf9-d8d9-4809-b8e4-0550c59957b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 581.8196 207.01 0)
+			(at 564.0396 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9749,7 +10674,7 @@
 			)
 		)
 	)
-	(global_label "SERVO_Y+_PWM"
+	(global_label "SERVO_YP_PWM"
 		(shape input)
 		(at 482.6 398.78 180)
 		(fields_autoplaced yes)
@@ -9761,7 +10686,7 @@
 		)
 		(uuid "e0c7386b-6936-4951-9062-ecb3ad9ef6be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 464.7982 398.78 0)
+			(at 465.1006 398.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9890,6 +10815,166 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 353.06 185.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02b701b2-18cb-4635-b471-557d5af5337e")
+		(property "Reference" "D1"
+			(at 355.6 184.4674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 355.6 187.0074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 353.06 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 353.06 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdb6504a-8a22-49b9-979d-33fa8ec2993d")
+		)
+		(pin "2"
+			(uuid "73f87d42-c071-4326-b56a-7942c39da734")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 577.85 204.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "034a1c73-0cc7-46d6-b8c5-98fe2b35b6ed")
+		(property "Reference" "#PWR059"
+			(at 581.66 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 579.882 202.438 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 577.85 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 577.85 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 577.85 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a41a978d-5df0-48d5-9823-37c704f8544d")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#PWR059")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10297,7 +11382,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 609.6 245.11 0)
+		(at 595.63 250.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10308,7 +11393,7 @@
 		(fields_autoplaced yes)
 		(uuid "0beefc09-309d-4881-b6f7-d30bf9008c92")
 		(property "Reference" "U7"
-			(at 611.2511 237.49 0)
+			(at 597.2811 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10319,7 +11404,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 611.2511 240.03 0)
+			(at 597.2811 245.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10330,7 +11415,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 610.87 251.46 0)
+			(at 596.9 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10343,7 +11428,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 610.87 253.365 0)
+			(at 596.9 258.445 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10355,7 +11440,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 609.6 245.11 0)
+			(at 595.63 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10555,6 +11640,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 349.25 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d9ba19f-d16c-4f67-a3bb-34302101732d")
+		(property "Reference" "#FLG03"
+			(at 349.25 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 356.108 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 349.25 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7845e03e-04b2-487a-a26f-9e7473794b1a")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 425.45 203.2 0)
 		(unit 1)
@@ -10633,6 +11795,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 652.78 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "144d25d9-5b2f-4977-a177-285cc612aa7b")
+		(property "Reference" "#PWR048"
+			(at 652.78 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 652.78 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 652.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 652.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 652.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8404f0e3-5533-47ad-9997-c27bb88ed100")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 425.45 198.12 0)
 		(unit 1)
@@ -10655,7 +11895,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "470uF"
 			(at 429.26 198.5009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10666,7 +11906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 426.4152 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10874,8 +12114,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 581.66 300.99 0)
+		(lib_id "power:VBUS")
+		(at 612.14 217.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10883,19 +12123,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1c2c813f-8f82-4fdb-a3c2-615daa2c0320")
-		(property "Reference" "J10"
-			(at 582.422 296.164 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 582.295 295.91 0)
+		(uuid "1a5ef389-b93f-487a-89b7-737e534a83b5")
+		(property "Reference" "#PWR061"
+			(at 608.33 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10905,8 +12135,19 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 581.66 300.99 0)
+		(property "Value" "VBUS"
+			(at 610.108 219.202 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 612.14 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10917,7 +12158,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 581.66 300.99 0)
+			(at 612.14 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 612.14 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4970307e-817e-4d3a-bc5e-d50c3489c0bd")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 581.66 295.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c2c813f-8f82-4fdb-a3c2-615daa2c0320")
+		(property "Reference" "J10"
+			(at 582.422 291.084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 582.295 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 581.66 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 581.66 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10928,7 +12246,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 581.66 300.99 0)
+			(at 581.66 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11617,7 +12935,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220"
 			(at 396.24 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12092,7 +13410,7 @@
 		(dnp no)
 		(uuid "37fe6eb9-2320-4c93-b7dd-e0d1762e5fc7")
 		(property "Reference" "R20"
-			(at 543.814 255.27 90)
+			(at 547.116 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12101,8 +13419,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 547.37 255.27 90)
+		(property "Value" "220"
+			(at 547.116 257.302 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12161,7 +13479,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 574.04 204.47 270)
+		(at 561.34 203.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12172,7 +13490,7 @@
 		(fields_autoplaced yes)
 		(uuid "3af1e604-555f-4965-9c25-d5095175834c")
 		(property "Reference" "#PWR015"
-			(at 567.69 204.47 0)
+			(at 554.99 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12183,7 +13501,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 572.77 200.66 90)
+			(at 560.07 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12193,7 +13511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 574.04 204.47 0)
+			(at 561.34 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12204,7 +13522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 574.04 204.47 0)
+			(at 561.34 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12215,7 +13533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 574.04 204.47 0)
+			(at 561.34 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12232,6 +13550,96 @@
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 547.37 245.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d54b8d1-6c40-4e39-a457-d1783f569435")
+		(property "Reference" "J1"
+			(at 548.64 243.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conexiones_adicionales"
+			(at 541.528 237.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_TE-Connectivity:TE_826576-5_1x05_P3.96mm_Vertical"
+			(at 547.37 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 547.37 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 547.37 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6785fde-0c28-4553-bd59-d608b1d23157")
+		)
+		(pin "2"
+			(uuid "f5f9e3cf-ae61-47d3-bda5-8bfb64278d10")
+		)
+		(pin "4"
+			(uuid "6769edf0-e507-419c-b5f8-f7e19d4ca305")
+		)
+		(pin "5"
+			(uuid "db960abf-07f1-4593-9dd3-ffe193b6fe49")
+		)
+		(pin "3"
+			(uuid "a4cda4b3-2b03-4ee3-9ad4-5f318a15f84b")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -12399,7 +13807,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 354.33 190.5 270)
+		(at 346.71 190.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12410,7 +13818,7 @@
 		(fields_autoplaced yes)
 		(uuid "4312acfb-88f4-44a4-a28a-3b9bd5a009fd")
 		(property "Reference" "F1"
-			(at 354.33 184.15 90)
+			(at 346.71 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12420,7 +13828,7 @@
 			)
 		)
 		(property "Value" "5A"
-			(at 354.33 186.69 90)
+			(at 346.71 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12430,7 +13838,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 354.33 188.722 90)
+			(at 346.71 188.722 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12441,7 +13849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 354.33 190.5 0)
+			(at 346.71 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12452,7 +13860,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 354.33 190.5 0)
+			(at 346.71 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12479,7 +13887,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 596.9 298.45 90)
+		(at 596.9 293.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12490,7 +13898,7 @@
 		(fields_autoplaced yes)
 		(uuid "4372a8a2-5bec-4cd9-b50a-45a420ec0382")
 		(property "Reference" "#PWR021"
-			(at 603.25 298.45 0)
+			(at 603.25 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12501,7 +13909,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 600.71 298.4499 90)
+			(at 600.71 293.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12512,7 +13920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 596.9 298.45 0)
+			(at 596.9 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12523,7 +13931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 596.9 298.45 0)
+			(at 596.9 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12534,7 +13942,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 596.9 298.45 0)
+			(at 596.9 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12800,7 +14208,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 651.51 215.9 0)
+		(at 629.92 222.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12808,10 +14216,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4a5ba5c1-ca6d-4ec6-a01d-3ae2ef9d1131")
 		(property "Reference" "#PWR043"
-			(at 651.51 222.25 0)
+			(at 629.92 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12822,7 +14229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 654.05 217.1699 0)
+			(at 627.888 226.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12833,7 +14240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 651.51 215.9 0)
+			(at 629.92 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12844,7 +14251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 651.51 215.9 0)
+			(at 629.92 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12855,7 +14262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 651.51 215.9 0)
+			(at 629.92 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12957,6 +14364,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 332.74 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ba0775d-a360-4bfe-9137-210dbc20b105")
+		(property "Reference" "J7"
+			(at 332.74 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V 15A"
+			(at 332.74 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 334.01 194.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 194.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 332.74 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a871c821-281c-4621-8a22-566f390da648")
+		)
+		(pin "1"
+			(uuid "22863d48-d160-4a89-823d-278e5a8675e5")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 483.87 355.6 90)
 		(unit 1)
@@ -13036,7 +14523,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 628.65 222.25 90)
+		(at 610.87 224.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13046,7 +14533,7 @@
 		(dnp no)
 		(uuid "4dd8e5fa-16ab-48c8-841b-4cfbb8976313")
 		(property "Reference" "#PWR045"
-			(at 635 222.25 0)
+			(at 617.22 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13057,7 +14544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 632.206 222.25 90)
+			(at 614.426 224.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13068,7 +14555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 628.65 222.25 0)
+			(at 610.87 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13079,7 +14566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 628.65 222.25 0)
+			(at 610.87 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13090,7 +14577,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 628.65 222.25 0)
+			(at 610.87 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13107,109 +14594,6 @@
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x09_Pin")
-		(at 548.64 240.03 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e5cec85-b094-4843-8f4a-8c830459ffd8")
-		(property "Reference" "J1"
-			(at 549.91 238.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Entradas adicionales"
-			(at 549.91 241.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 548.64 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 548.64 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 548.64 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "5d027f90-ab78-43cb-b687-05d609788488")
-		)
-		(pin "7"
-			(uuid "4bf9cac3-fa1b-4cf8-a3ba-8776304118ec")
-		)
-		(pin "9"
-			(uuid "71cdd1c9-de22-4f87-967f-0f77fc61c5cf")
-		)
-		(pin "2"
-			(uuid "20df899c-332e-4c7d-bbdc-bb571e841596")
-		)
-		(pin "5"
-			(uuid "e8c1a17f-c1f7-49c4-a166-118546e4ea9d")
-		)
-		(pin "3"
-			(uuid "317d980b-f9de-4806-bda2-9c7dcd70135e")
-		)
-		(pin "6"
-			(uuid "07ece3f8-0054-4fa5-974c-0a6ee90dbd3d")
-		)
-		(pin "8"
-			(uuid "558b0c46-4df8-40a0-862c-bab39d03f718")
-		)
-		(pin "1"
-			(uuid "d1ab4bbf-7bd0-42eb-ae2e-2253438a90a3")
-		)
-		(instances
-			(project "Control para Prototipo Balanceador AGRO 2.0"
-				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -13575,6 +14959,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_USB:CH340C")
+		(at 655.32 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "526b7be3-031a-4a2c-9209-52422eafb884")
+		(property "Reference" "U8"
+			(at 657.4633 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CH340C"
+			(at 657.4633 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 636.778 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
+			(at 648.716 178.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
+			(at 653.796 176.022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f9e9e38-77a1-44b9-8cc7-ff870d2b26da")
+		)
+		(pin "4"
+			(uuid "52fc5e1d-b29c-4e53-9e24-c28dcf9cfcd0")
+		)
+		(pin "5"
+			(uuid "d5e38a8c-aa3d-4a39-82a0-f5604bd20881")
+		)
+		(pin "1"
+			(uuid "d49f7602-2b72-4e6e-a9f9-a72060f7c298")
+		)
+		(pin "6"
+			(uuid "3b47f1d4-c063-4319-b34a-bb05a4762563")
+		)
+		(pin "3"
+			(uuid "7268e305-e09d-4c5e-89ba-299d7685f907")
+		)
+		(pin "9"
+			(uuid "c99d53a9-7656-47c9-b31a-9bfc46ba1950")
+		)
+		(pin "8"
+			(uuid "0cc8d854-13ed-4e4d-bc48-68feb33892a6")
+		)
+		(pin "7"
+			(uuid "39a1752f-21e5-4969-a46f-6bea86c6c972")
+		)
+		(pin "11"
+			(uuid "f23a1646-7384-4e81-8247-bea5c47403cb")
+		)
+		(pin "13"
+			(uuid "94f1abe1-75cd-42b0-9507-b6c397fb361b")
+		)
+		(pin "14"
+			(uuid "db8bd48e-42d9-483b-aec1-43c91e6f279a")
+		)
+		(pin "16"
+			(uuid "64eb3a4c-f84f-43ca-8454-9431d9b16ea9")
+		)
+		(pin "12"
+			(uuid "4343f248-40b5-4660-8b05-459bb8ffc238")
+		)
+		(pin "10"
+			(uuid "d11b2ac9-8dc2-4948-8765-be143aee99f9")
+		)
+		(pin "15"
+			(uuid "99034a31-e4b2-488b-b168-508d6401cb32")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 414.02 299.72 180)
 		(unit 1)
@@ -13815,84 +15324,6 @@
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 628.65 201.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5b32567e-9ac1-4d36-8c9a-b18fac4b2cf1")
-		(property "Reference" "#PWR049"
-			(at 624.84 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 627.634 199.644 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 628.65 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 628.65 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 628.65 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7dc3f72a-0849-429a-9567-a9007a1a0246")
-		)
-		(instances
-			(project "Control para Prototipo Balanceador AGRO 2.0"
-				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -14295,6 +15726,322 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 664.21 191.77 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6608d341-d446-4f0d-b040-d5ec255a8835")
+		(property "Reference" "C20"
+			(at 662.432 185.674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 661.67 187.706 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 660.4 190.8048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 664.21 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 664.21 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6a972879-d28a-48d8-951c-0babc3076258")
+		)
+		(pin "1"
+			(uuid "67aec8a5-adfd-4bc7-af82-b90e9dfb687d")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 595.63 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70c161e7-b752-48c9-bb24-3920a2efb877")
+		(property "Reference" "#PWR058"
+			(at 595.63 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 595.63 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 595.63 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 595.63 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 595.63 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3625904-b05c-45eb-a3af-0a5d4e27bb18")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 595.63 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "766f7cfa-9e55-4ccd-9936-7d1b269a2f61")
+		(property "Reference" "#PWR063"
+			(at 595.63 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 588.01 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 595.63 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 595.63 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 595.63 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "009cc9ac-136f-4fef-b54c-3fc1c12e96f5")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 576.58 217.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76c3fa68-cbc0-4422-a4ac-84182efda66d")
+		(property "Reference" "#PWR060"
+			(at 580.39 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 578.612 215.138 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 576.58 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 576.58 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 576.58 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a6a1eef-9715-48b6-81e6-67e53e87dca4")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 523.24 266.7 0)
 		(unit 1)
@@ -14374,7 +16121,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 609.6 255.27 0)
+		(at 595.63 260.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14385,7 +16132,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a3b5b23-5b66-49d1-8d37-20eb02e18109")
 		(property "Reference" "#PWR052"
-			(at 609.6 261.62 0)
+			(at 595.63 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14396,7 +16143,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 609.6 260.35 0)
+			(at 595.63 265.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14406,7 +16153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 609.6 255.27 0)
+			(at 595.63 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14417,7 +16164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 609.6 255.27 0)
+			(at 595.63 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14428,7 +16175,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 609.6 255.27 0)
+			(at 595.63 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14689,7 +16436,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 593.09 194.31 270)
+		(at 575.31 196.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14700,7 +16447,7 @@
 		(fields_autoplaced yes)
 		(uuid "861394f8-8d86-4d41-8eb8-6dac214d1fd2")
 		(property "Reference" "#PWR046"
-			(at 586.74 194.31 0)
+			(at 568.96 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14711,7 +16458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 589.28 194.3099 90)
+			(at 571.5 196.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14722,7 +16469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 593.09 194.31 0)
+			(at 575.31 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14733,7 +16480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 593.09 194.31 0)
+			(at 575.31 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14744,7 +16491,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 593.09 194.31 0)
+			(at 575.31 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14768,7 +16515,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 579.12 204.47 90)
+		(at 566.42 203.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14778,7 +16525,7 @@
 		(dnp no)
 		(uuid "86b053d4-f7ff-42f0-805f-2498b9e5a675")
 		(property "Reference" "R22"
-			(at 579.12 207.264 90)
+			(at 566.42 205.994 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14788,7 +16535,7 @@
 			)
 		)
 		(property "Value" "5,1k"
-			(at 579.12 201.676 90)
+			(at 566.42 200.406 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14798,7 +16545,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 579.12 206.248 90)
+			(at 566.42 204.978 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14809,7 +16556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 579.12 204.47 0)
+			(at 566.42 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14820,7 +16567,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 579.12 204.47 0)
+			(at 566.42 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15509,7 +17256,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 595.63 201.93 90)
+		(at 341.63 181.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15517,9 +17264,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9003f1bb-62cd-4a1f-a0ae-352e410b4b46")
-		(property "Reference" "#PWR01"
-			(at 599.44 201.93 0)
+		(uuid "9080cc1c-38ff-404c-8003-0ca2ba63716f")
+		(property "Reference" "#PWR064"
+			(at 345.44 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15530,7 +17277,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 596.138 199.136 90)
+			(at 343.662 179.578 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15541,7 +17288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 595.63 201.93 0)
+			(at 341.63 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15552,7 +17299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 595.63 201.93 0)
+			(at 341.63 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15563,7 +17310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 595.63 201.93 0)
+			(at 341.63 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15574,12 +17321,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "65fb4a30-727a-41e3-a8d5-4814f3f58e4e")
+			(uuid "124ef20f-bacc-4aea-b0e8-ae659ee1611c")
 		)
 		(instances
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
-					(reference "#PWR01")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -15747,84 +17494,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 609.6 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "97df3238-cc70-469e-9d7d-5be170b90d4c")
-		(property "Reference" "#PWR051"
-			(at 609.6 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 607.314 233.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 609.6 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 609.6 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 609.6 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5873f31b-d72a-42f1-a9ca-e8facead5771")
-		)
-		(instances
-			(project "Control para Prototipo Balanceador AGRO 2.0"
-				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 427.99 226.06 0)
 		(unit 1)
@@ -15858,7 +17527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01502HDWU_1x02_P5.00mm_Horizontal"
 			(at 427.99 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -16395,7 +18064,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:TYPE-C_16PLT-H10_0")
-		(at 613.41 209.55 0)
+		(at 595.63 212.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16406,7 +18075,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa053e07-f6c5-4223-ba47-e4346945079c")
 		(property "Reference" "U2"
-			(at 613.41 186.69 0)
+			(at 595.63 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16416,7 +18085,7 @@
 			)
 		)
 		(property "Value" "TYPE-C 16PLT-H10.0"
-			(at 613.41 189.23 0)
+			(at 595.63 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16426,7 +18095,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C3151749_TYPE-C-SMD_USB4120-03-C"
-			(at 613.41 219.71 0)
+			(at 595.63 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16437,7 +18106,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206271801_SHOU-HAN-TYPE-C-16PLT-H10-0_C3151749.pdf"
-			(at 611.124 209.423 0)
+			(at 593.344 211.963 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16448,7 +18117,7 @@
 			)
 		)
 		(property "Description" "TYPE-C 16PLT-H10.0"
-			(at 613.41 209.55 0)
+			(at 595.63 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16459,7 +18128,7 @@
 			)
 		)
 		(property "LCSC" "C3151749"
-			(at 613.41 209.55 0)
+			(at 595.63 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16470,7 +18139,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 613.41 209.55 0)
+			(at 595.63 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16662,7 +18331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW16"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 358.14 318.77 0)
 			(hide yes)
 			(show_name no)
@@ -16856,7 +18525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 455.676 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16910,84 +18579,6 @@
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 341.63 190.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b4c06e1a-a2da-477f-81fa-6ecd98b958f8")
-		(property "Reference" "#PWR053"
-			(at 345.44 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 342.138 187.706 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 341.63 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e7fb145-88a8-4bc9-8d89-2a87dc6b3f8f")
-		)
-		(instances
-			(project "Control para Prototipo Balanceador AGRO 2.0"
-				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -17155,7 +18746,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 596.9 300.99 270)
+		(at 596.9 295.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17166,7 +18757,7 @@
 		(fields_autoplaced yes)
 		(uuid "b647f0a9-cc22-40ae-ad86-1701a3e492a5")
 		(property "Reference" "#PWR054"
-			(at 593.09 300.99 0)
+			(at 593.09 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17177,7 +18768,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 600.71 300.9899 90)
+			(at 600.71 295.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17188,7 +18779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 596.9 300.99 0)
+			(at 596.9 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17199,7 +18790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 596.9 300.99 0)
+			(at 596.9 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17210,7 +18801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 596.9 300.99 0)
+			(at 596.9 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17227,6 +18818,84 @@
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 655.32 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbb60587-b1ea-4a98-9aa8-7f66ebd43165")
+		(property "Reference" "#PWR050"
+			(at 655.32 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 649.478 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 655.32 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 655.32 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 655.32 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e14cb3a-3f8a-4b9d-9bfd-4799853c44e8")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -17254,7 +18923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 483.108 196.596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17548,8 +19217,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 593.09 222.25 270)
+		(lib_id "power:VBUS")
+		(at 612.14 204.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17557,10 +19226,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c882d25f-ed57-4849-99c4-68520064751e")
-		(property "Reference" "#PWR047"
-			(at 586.74 222.25 0)
+		(uuid "c6cdb7f7-aa77-4673-9678-6c61dfd55ab9")
+		(property "Reference" "#PWR062"
+			(at 608.33 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17570,19 +19238,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 589.28 222.2499 90)
+		(property "Value" "VBUS"
+			(at 610.108 206.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 593.09 222.25 0)
+			(at 612.14 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17593,7 +19261,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 593.09 222.25 0)
+			(at 612.14 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 612.14 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3618213f-6278-4006-9d7f-ae3fb2f9bf25")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 575.31 224.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c882d25f-ed57-4849-99c4-68520064751e")
+		(property "Reference" "#PWR047"
+			(at 568.96 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 571.5 224.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 575.31 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 575.31 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17604,7 +19351,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 593.09 222.25 0)
+			(at 575.31 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17621,84 +19368,6 @@
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 594.36 214.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c91b9166-c37c-430a-a7ad-3c6913e587e9")
-		(property "Reference" "#PWR048"
-			(at 598.17 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 594.36 217.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 594.36 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 594.36 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 594.36 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b91bdbb-928f-4c28-82a8-0617437daf3b")
-		)
-		(instances
-			(project "Control para Prototipo Balanceador AGRO 2.0"
-				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -17788,7 +19457,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 628.65 194.31 90)
+		(at 610.87 196.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17799,7 +19468,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbb759f9-07ba-4f3a-a26e-8d8f51e8ff72")
 		(property "Reference" "#PWR044"
-			(at 635 194.31 0)
+			(at 617.22 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17810,7 +19479,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 632.46 194.3099 90)
+			(at 614.68 196.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17821,7 +19490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 628.65 194.31 0)
+			(at 610.87 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17832,7 +19501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 628.65 194.31 0)
+			(at 610.87 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17843,7 +19512,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 628.65 194.31 0)
+			(at 610.87 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18137,7 +19806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 370.5352 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -18180,6 +19849,85 @@
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 670.56 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e826598c-9a18-4994-96e0-3d78755ef2fa")
+		(property "Reference" "#PWR049"
+			(at 670.56 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 673.1 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 670.56 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 670.56 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 670.56 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "403f14d3-6676-4647-b5e2-11dfaf019e3d")
+		)
+		(instances
+			(project "Control para Prototipo Balanceador AGRO 2.0"
+				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -18505,7 +20253,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 645.16 212.09 90)
+		(at 623.57 218.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18515,7 +20263,7 @@
 		(dnp no)
 		(uuid "f03eeb71-649d-4352-89ee-0fb5563ca5d8")
 		(property "Reference" "R21"
-			(at 645.16 214.884 90)
+			(at 623.57 221.234 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18525,7 +20273,7 @@
 			)
 		)
 		(property "Value" "5,1k"
-			(at 645.16 209.296 90)
+			(at 623.57 215.646 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18535,7 +20283,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 645.16 213.868 90)
+			(at 623.57 220.218 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18546,7 +20294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 645.16 212.09 0)
+			(at 623.57 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18557,7 +20305,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 645.16 212.09 0)
+			(at 623.57 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18577,84 +20325,6 @@
 			(project "Control para Prototipo Balanceador AGRO 2.0"
 				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 629.92 214.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f6436162-df24-4c31-8f5e-54dd6a33b658")
-		(property "Reference" "#PWR050"
-			(at 626.11 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 629.666 217.678 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 629.92 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 629.92 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 629.92 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32e538f5-cb0e-4a3a-9fea-584392196116")
-		)
-		(instances
-			(project "Control para Prototipo Balanceador AGRO 2.0"
-				(path "/78cbd7d9-3b6a-4772-af55-43029eb4883f"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)

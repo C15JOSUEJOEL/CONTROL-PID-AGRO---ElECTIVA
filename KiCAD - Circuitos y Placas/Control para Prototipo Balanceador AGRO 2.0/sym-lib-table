@@ -5,4 +5,5 @@
 	(lib (name "2026-10-29_05-58-03") (type "KiCad") (uri "D:/ITLA/11vo cuatrimestre/Electiva - Diseño Mecatronico/Recursos/ul_TSC2046IPW/KiCADv6/2026-10-29_05-58-03.kicad_sym") (options "") (descr ""))
 	(lib (name "lcsc_imported") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/symbols/lcsc_imported.kicad_sym") (options "") (descr ""))
 	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/easyeda2kicad/easyeda2kicad.kicad_sym") (options "") (descr ""))
+	(lib (name "JACK DC - C3095381") (type "KiCad") (uri "${KIPRJMOD}/easyeda2kicad/JACK DC - C3095381.kicad_sym") (options "") (descr ""))
 )
