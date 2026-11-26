@@ -117,7 +117,7 @@
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "error",
-        "padstack": "warning",
+        "padstack": "ignore",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
